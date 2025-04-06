@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Skillpartner/static/css/main.6e7b4d8c.css",
-    "main.js": "/Skillpartner/static/js/main.edb76b77.js",
-    "static/js/453.f1bdcdaf.chunk.js": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js",
+    "main.css": "/Skillpartner/static/css/main.0951304b.chunk.css",
+    "main.js": "/Skillpartner/static/js/main.75a2b248.chunk.js",
+    "main.js.map": "/Skillpartner/static/js/main.75a2b248.chunk.js.map",
+    "runtime~main.js": "/Skillpartner/static/js/runtime~main.734db104.js",
+    "runtime~main.js.map": "/Skillpartner/static/js/runtime~main.734db104.js.map",
+    "static/js/2.6ae5a7df.chunk.js": "/Skillpartner/static/js/2.6ae5a7df.chunk.js",
+    "static/js/2.6ae5a7df.chunk.js.map": "/Skillpartner/static/js/2.6ae5a7df.chunk.js.map",
+    "static/js/3.d637a5b4.chunk.js": "/Skillpartner/static/js/3.d637a5b4.chunk.js",
+    "static/js/3.d637a5b4.chunk.js.map": "/Skillpartner/static/js/3.d637a5b4.chunk.js.map",
     "index.html": "/Skillpartner/index.html",
-    "main.6e7b4d8c.css.map": "/Skillpartner/static/css/main.6e7b4d8c.css.map",
-    "main.edb76b77.js.map": "/Skillpartner/static/js/main.edb76b77.js.map",
-    "453.f1bdcdaf.chunk.js.map": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.6e7b4d8c.css",
-    "static/js/main.edb76b77.js"
-  ]
+    "precache-manifest.e0a51a5cc961b5d7912de0d0668b91f3.js": "/Skillpartner/precache-manifest.e0a51a5cc961b5d7912de0d0668b91f3.js",
+    "service-worker.js": "/Skillpartner/service-worker.js",
+    "static/css/main.0951304b.chunk.css.map": "/Skillpartner/static/css/main.0951304b.chunk.css.map"
+  }
 }
