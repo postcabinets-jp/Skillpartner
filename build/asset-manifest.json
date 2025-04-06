@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e7b4d8c.css",
-    "main.js": "/static/js/main.5365294c.js",
-    "static/js/453.f1bdcdaf.chunk.js": "/static/js/453.f1bdcdaf.chunk.js",
-    "index.html": "/index.html",
-    "main.6e7b4d8c.css.map": "/static/css/main.6e7b4d8c.css.map",
-    "main.5365294c.js.map": "/static/js/main.5365294c.js.map",
-    "453.f1bdcdaf.chunk.js.map": "/static/js/453.f1bdcdaf.chunk.js.map"
+    "main.css": "/Skillpartner/static/css/main.6e7b4d8c.css",
+    "main.js": "/Skillpartner/static/js/main.06abfe7c.js",
+    "static/js/453.f1bdcdaf.chunk.js": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js",
+    "index.html": "/Skillpartner/index.html",
+    "main.6e7b4d8c.css.map": "/Skillpartner/static/css/main.6e7b4d8c.css.map",
+    "main.06abfe7c.js.map": "/Skillpartner/static/js/main.06abfe7c.js.map",
+    "453.f1bdcdaf.chunk.js.map": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e7b4d8c.css",
-    "static/js/main.5365294c.js"
+    "static/js/main.06abfe7c.js"
   ]
 }
