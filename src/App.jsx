@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import HomePage from './components/HomePage';
@@ -12,7 +12,7 @@ import PricingPage from './components/PricingPage';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Skillpartner">
+    <HashRouter>
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
@@ -28,7 +28,7 @@ const App = () => {
         </main>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
