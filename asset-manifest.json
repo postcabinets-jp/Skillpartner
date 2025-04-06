@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Skillpartner/static/css/main.6e7b4d8c.css",
-    "main.js": "/Skillpartner/static/js/main.e7348016.js",
+    "main.js": "/Skillpartner/static/js/main.edb76b77.js",
     "static/js/453.f1bdcdaf.chunk.js": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js",
     "index.html": "/Skillpartner/index.html",
     "main.6e7b4d8c.css.map": "/Skillpartner/static/css/main.6e7b4d8c.css.map",
-    "main.e7348016.js.map": "/Skillpartner/static/js/main.e7348016.js.map",
+    "main.edb76b77.js.map": "/Skillpartner/static/js/main.edb76b77.js.map",
     "453.f1bdcdaf.chunk.js.map": "/Skillpartner/static/js/453.f1bdcdaf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e7b4d8c.css",
-    "static/js/main.e7348016.js"
+    "static/js/main.edb76b77.js"
   ]
 }
