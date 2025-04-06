@@ -12,7 +12,7 @@ import PricingPage from './components/PricingPage';
 
 const App = () => {
   return (
-    <HashRouter basename="/Skillpartner">
+    <HashRouter>
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
