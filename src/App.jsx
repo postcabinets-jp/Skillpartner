@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import HomePage from './components/HomePage';
@@ -12,21 +12,23 @@ import PricingPage from './components/PricingPage';
 
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-grow">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/template-list" element={<TemplateShowcase />} />
-          <Route path="/template/:id" element={<TemplateDetailPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/demo" element={<DemoPage />} />
-          <Route path="/reskill" element={<ReskillPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
+    <HashRouter>
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/template-list" element={<TemplateShowcase />} />
+            <Route path="/template/:id" element={<TemplateDetailPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/demo" element={<DemoPage />} />
+            <Route path="/reskill" element={<ReskillPage />} />
+            <Route path="/pricing" element={<PricingPage />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 };
 
