@@ -12,18 +12,18 @@ import PricingPage from './components/PricingPage';
 
 const App = () => {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/template-list" element={<TemplateShowcase />} />
-            <Route path="/template/:id" element={<TemplateDetailPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/demo" element={<DemoPage />} />
-            <Route path="/reskill" element={<ReskillPage />} />
-            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="template-list" element={<TemplateShowcase />} />
+            <Route path="template/:id" element={<TemplateDetailPage />} />
+            <Route path="contact" element={<ContactPage />} />
+            <Route path="demo" element={<DemoPage />} />
+            <Route path="reskill" element={<ReskillPage />} />
+            <Route path="pricing" element={<PricingPage />} />
           </Routes>
         </main>
         <Footer />
